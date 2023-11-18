@@ -4,8 +4,8 @@ title: 个人
 permalink: /about/
 ---
 
-## 关于我
-#### 您好，我是[吴开英](http://www.jxeduyun.com/App.EduSNS/Src/index.php?app=public&mod=PersonCenter&act=index&uid=1999112){:target="_blank"}，来自赣州市武陵小学的一名热爱语文教育的女教师。
+### 关于我
+您好，我是[吴开英](http://www.jxeduyun.com/App.EduSNS/Src/index.php?app=public&mod=PersonCenter&act=index&uid=1999112){:target="_blank"}，来自赣州市武陵小学的一名热爱语文教育的女教师。
 ```
 对于语文教育，我怀着无限的热情与责任感。
 
