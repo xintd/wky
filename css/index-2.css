@@ -32,7 +32,7 @@ div.wrapper{
 .wrapper .wrap {
 	width: 100px;
 	height: 100px;
-	background: rgba(0, 255, 36, 0.36);
+	background: rgb(187, 211, 136);
 	position: absolute;
 	top:50px;
 	left: 50px;
@@ -65,7 +65,7 @@ div.wrapper{
 .wrapper .out{
 	width: 150px;
 	height: 150px;
-	background: rgba(0, 255, 36, 0.36);
+	background: rgb(187, 211, 136);
 	position: absolute;
 	overflow: hidden;
 	transition: all 1s;
