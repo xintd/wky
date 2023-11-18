@@ -3,7 +3,9 @@ layout: default
 ---
 
 <!-- 菜单页 -->
-<div class="gif-background">
+<div class="image-container">
+  <img src="https://xintd.github.io/wky/images/img.jpg" alt="Image">
+  <img src="https://xintd.github.io/wky/images/img.jpg" alt="Image">
 </div>
 <style>
   .gif-background {
@@ -16,6 +18,31 @@ layout: default
     width: 960px;
     height: 350px;
   }
+  .image-container {
+    /* 设置容器宽高 */
+    width: 960px;
+    height: 350px;
+    overflow: hidden; /* 隐藏溢出部分的图片 */
+    white-space: nowrap; /* 图片水平排列不换行 */
+  }
+
+  .image-container img {
+    /* 设置图片宽高*/
+    width: 960px;
+    height: 350px;
+    display: inline-block; /* 设置图片显示为内联块 */
+    animation: scrollImage 10s linear infinite; /* 图片动画 */
+  }
+
+  @keyframes scrollImage {
+    0% {
+      transform: translateX(0); /* 图片初始位置 */
+    }
+    100% {
+      transform: translateX(-100%); /* 图片从左往右移动 */
+    }
+  }
+
   * {
       margin: 0;
       padding: 0;
