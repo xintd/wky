@@ -1,0 +1,27 @@
+---
+layout: page
+title: 教育随笔
+permalink: /suiB/
+---
+
+{% for tag in site.tags %}
+  {% if tag[0] == '教育随笔' %}
+  <ul class="tag">
+    {% for post in tag[1] %}
+    {% if post.title != null %}
+    <li>
+      {% if post.link %}
+      <a href="{{ post.link }}">
+        {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {% endif %}
+          {{ post.title }}
+        </a>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
+</div>
