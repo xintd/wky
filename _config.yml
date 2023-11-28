@@ -36,8 +36,8 @@ navigation:
 #    url: /navigation
   - name: 古诗名篇
     url: /mingP
-  - name: 学习资料
-    url: /ziL
+#  - name: 学习资料
+#    url: /ziL
   - name: 古诗佳话
     url: /jiaH
   - name: 名家简介
